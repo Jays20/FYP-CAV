@@ -1,7 +1,5 @@
 """
-
     All the much needed hyper-parameters needed for the algorithm implementation. 
-
 """
 
 MODEL_LOAD = False
@@ -16,7 +14,7 @@ EPISODES = 1000
 #VAE Bottleneck
 LATENT_DIM = 95
 
-#Dueling DQN (hyper)parameters
+# Dueling DQN (hyper)parameters
 DQN_LEARNING_RATE = 0.0001
 EPSILON = 1.00
 EPSILON_END = 0.05
@@ -27,8 +25,7 @@ DQN_CHECKPOINT_DIR = 'preTrained_models/ddqn'
 MODEL_ONLINE = 'carla_dueling_dqn_online.pth'
 MODEL_TARGET = 'carla_dueling_dqn_target.pth'
 
-
-#Proximal Policy Optimization (hyper)parameters
+# Proximal Policy Optimization (hyper)parameters
 EPISODE_LENGTH = 7500
 TOTAL_TIMESTEPS = 2e6
 ACTION_STD_INIT = 0.2
